@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/biankuantankuang"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+            <CheckBox
+                android:id="@+id/handle_NIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:checked="true"
+                android:text="NIT" />
+            <CheckBox
+                android:id="@+id/handle_BLD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="BLD" />
+            <CheckBox
+                android:id="@+id/handle_PRO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="PRO" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal">
+            <CheckBox
+                android:id="@+id/handle_LEU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LEU" />
+            <CheckBox
+                android:id="@+id/handle_GLU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="GLU" />
+            <CheckBox
+                android:id="@+id/handle_VALID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Valid" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton
+                android:id="@+id/dialog_handle_R"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="#000000"
+                android:text="R" />
+
+            <RadioButton
+                android:id="@+id/dialog_handle_G"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="#000000"
+                android:text="G" />
+
+            <RadioButton
+                android:id="@+id/dialog_handle_B"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="#000000"
+                android:text="B" />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/collect_direction"
+            android:id="@+id/xy_direction"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center|center_horizontal|center_vertical"
+            >
+       <Button
+        android:id="@+id/dialog_handle_confirm"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:background="#efefef"
+        android:text="@string/confirm" />
+     <Button
+         android:id="@+id/dialog_handle_cancel"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="5dp"
+         android:gravity="center|center_horizontal|center_vertical"
+         android:background="#efefef"
+         android:layout_marginLeft="40dp"
+         android:text="@string/cancol" />
+        </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>

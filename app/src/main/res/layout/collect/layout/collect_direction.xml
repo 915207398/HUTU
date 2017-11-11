@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal" >
+
+<EditText
+    android:id="@+id/horizontal_xy"
+    android:layout_width="82dip"
+    android:layout_height="wrap_content"
+    android:layout_x="36dp"
+    android:layout_y="7dp"
+    android:background="#ffffff"
+    android:focusable="false"
+    android:inputType="number"
+    android:textColor="#000000"
+    android:textScaleX="1.5"
+    android:textSize="30sp" />
+
+<Button
+    android:id="@+id/collect_left"
+    android:layout_width="30dip"
+    android:layout_height="30dip"
+    android:layout_x="6dp"
+    android:layout_y="10dp"
+    android:background="@mipmap/left_d"
+    android:scaleType="fitCenter" />
+
+<Button
+    android:id="@+id/collect_right"
+    android:layout_width="30dp"
+    android:layout_height="30dip"
+    android:layout_x="118dp"
+    android:layout_y="10dp"
+    android:background="@mipmap/right_d"
+    android:scaleType="fitCenter" />
+
+    <EditText
+        android:id="@+id/vertical_xy"
+        android:layout_width="82dip"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="7dp"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textScaleX="1.5"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/collect_upward"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_x="183dp"
+        android:layout_y="10dp"
+        android:background="@mipmap/up_d"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/collect_downward"
+        android:layout_width="30dp"
+        android:layout_height="30dip"
+        android:layout_x="295dp"
+        android:layout_y="10dp"
+        android:background="@mipmap/down_d"
+        android:scaleType="fitCenter" />
+
+</AbsoluteLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d15fb2f2">
+
+    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+        android:id="@+id/slidingmenu_mian"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+         <RadioButton
+            android:id="@+id/slidingmenu_Nit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nit" />
+            <RadioButton
+                android:id="@+id/slidingmenu_Leu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leu" />
+            <RadioButton
+                android:id="@+id/slidingmenu_Glu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Glu" />
+            <RadioButton
+                android:id="@+id/slidingmenu_Pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pro" />
+            <RadioButton
+                android:id="@+id/slidingmenu_Blo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blo" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/check_testtimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"/>
+
+                <TextView
+                    android:id="@+id/text_times"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Times"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <include layout="@layout/inc_dec_edittext"
+                android:id="@+id/TextViev_testTimes"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/check_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"/>
+
+                <TextView
+                    android:id="@+id/text_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Days"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <include layout="@layout/inc_dec_edittext"
+                android:id="@+id/TextViev_testDays"/>
+        </LinearLayout>
+    </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+</LinearLayout>

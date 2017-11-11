@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sens_U</string>
+    <string name="all_confirm">Confirmation</string>
+    <string name="all_cancel">Cancel</string>
+    <string name="tab_one">Home</string>
+    <string name="tab_two">Photo</string>
+    <string name="tab_three">Help</string>
+    <string name="tab_four">User</string>
+    <string name="login_login">LOGIN</string>
+    <string name="login_register">Register</string>
+    <string name="login_forgetps">Forget password?</string>
+    <string name="login_hint_emailAddress">Email</string>
+    <string name="login_hint_Password">Password</string>
+    <string name="handle_Perspective">PERSPECTIVE</string>
+    <string name="handle_Report">Result</string>
+    <string name="handle_correction">CORRECTION</string>
+    <string name="item_Marker">Mark</string>
+    <string name="item_Result">Results</string>
+    <string name="report_Marker">Marker</string>
+    <string name="report_Result">Result</string>
+    <string name="report_time">The time</string>
+    <string name="report_analysis">Urine analysis report </string>
+    <string name="help_cream">Photo</string>
+    <string name="help_plot">Line Chart</string>
+    <string name="help_language">Language</string>
+    <string name="help_untapped">Underdevelopment</string>
+    <string name="cancol">Cancol</string>
+    <string name="confirm">Confirm</string>
+    <string name="exit">Exit</string>
+    <string name="remind">Please confirm whether to exit or not</string>
+    <string name="ReturnHome">Return to homepage</string>
+</resources>

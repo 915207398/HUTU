@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/newlogo2"
+        />
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center"
+        android:padding="25dip">
+
+        <EditText
+            android:id="@+id/login_edit1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_edittext_height"
+            android:layout_marginTop="5dp"
+            android:hint="@string/login_hint_emailAddress"
+            android:maxLength="30"
+            android:paddingLeft="55dp"
+            android:paddingRight="60dp"></EditText>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="21dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/mdy_account"
+            android:visibility="visible" />
+
+
+        <EditText
+            android:id="@+id/login_edit2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_edittext_height"
+            android:layout_below="@id/login_edit1"
+            android:hint="@string/login_hint_Password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="55dp"
+            android:paddingRight="60dp"
+            android:textSize="18dp"></EditText>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="22dp"
+            android:layout_below="@id/login_edit1"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="6dp"
+            android:background="@mipmap/mdy_password" />
+
+
+        <Button
+            android:id="@+id/login_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/login_edit2"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/border_style"
+            android:backgroundTint="@color/blue"
+            android:text="@string/login_login"
+            android:textColor="#555555"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_bt1"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/login_bt2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#00ffffff"
+                android:gravity="left|center"
+                android:text="@string/login_register"
+                android:textColor="#555555"
+                android:textSize="8dp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/login_bt3"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#00ffffff"
+                android:gravity="right|center"
+                android:text="@string/login_forgetps"
+                android:textColor="#555555"
+                android:textSize="8dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+C:/CAI/AndroidPJ/HUTU/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
+C:/CAI/AndroidPJ/HUTU/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/CAI/AndroidPJ/HUTU/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

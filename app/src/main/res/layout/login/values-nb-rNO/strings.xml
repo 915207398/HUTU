@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="person_account">Account management</string>
+    <string name="person_change_password">Change passwrod</string>
+    <string name="person_head_portrait">Upload photo</string>
+    <string name="person_news">Message</string>
+    <string name="dialog_instructions1">Make sure the precise installation of the device and the correct place of the reference color layer. In addition, there should be light background around the reference color layer and uniform lighting condition is needed before you photo. Please note, the shooting angle should keep parallel with the reference color layer, and the four black dots need a relatively far distance from the edge of the image.</string>
+    <string name="dialog_instructions2">\" Make sure all the black corner round dots are covered by the colorful round dots. If not, you should judge which colorful round dot does not cover the black corner round dot, and then click the above gesture with corresponding color ring. After that, click the remaining black corner dots on the reference color layer until all dark dots are covered by the colorful round dot.\"</string>
+    <string name="cream_photo_album">Album</string>
+    <string name="cream_photo">Camera</string>
+    <string name="cream_Positioning">Positioning</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Sens_U</string>
+    <string name="all_confirm">确认</string>
+    <string name="all_cancel">取消</string>
+    <string name="tab_one">首页</string>
+    <string name="tab_two">拍照</string>
+    <string name="tab_three">帮助</string>
+    <string name="tab_four">个人</string>
+    <string name="login_login">登陆</string>
+    <string name="login_register">注册</string>
+    <string name="login_forgetps">忘记密码?</string>
+    <string name="login_hint_emailAddress">电子邮箱</string>
+    <string name="login_hint_Password">密码</string>
+    <string name="handle_Perspective">透视变换</string>
+    <string name="handle_Report">报告</string>
+    <string name="handle_correction">校正</string>
+    <string name="item_Marker">标记</string>
+    <string name="item_Result">结果</string>
+    <string name="report_Marker">标记</string>
+    <string name="report_Result">结果</string>
+    <string name="report_time">时间</string>
+    <string name="report_analysis">尿液分析报告</string>
+    <string name="help_cream">拍摄相片</string>
+    <string name="help_plot">绘制图形</string>
+    <string name="help_language">语言</string>
+    <string name="help_untapped">未开发</string>
+    <string name="dialog_instructions1">拍照前确认设备安装准确，标准色卡摆放正确，背景颜色为浅色调，采光均匀，拍摄角度与标准色卡平行，注意标准色卡四个边角的定位黑点不能太靠近图像视野边缘。</string>
+    <string name="cancol">取消</string>
+    <string name="confirm">确定</string>
+    <string name="exit">退出</string>
+    <string name="remind">请确认是否退出</string>
+    <string name="ReturnHome">返回主页</string>
+    <string name="person_news">我的消息</string>
+    <string name="person_account">账户管理</string>
+    <string name="person_head_portrait">上传头像</string>
+    <string name="person_change_password">修改密码</string>
+</resources>

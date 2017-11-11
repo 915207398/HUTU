@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_instructions2">请确定标准色卡四个边角的黑点被彩色圆点覆盖，如果某个黑点未被覆盖，需寻找图像视野内其他区域的彩色圆点，并点击图像上面所对应的手势，再点击未被覆盖彩色圆点的黑点区域直至其被覆盖</string>
+    <string name="cream_photo_album">相册</string>
+    <string name="cream_photo">拍照</string>
+    <string name="cream_Positioning">定位</string>
+</resources>
