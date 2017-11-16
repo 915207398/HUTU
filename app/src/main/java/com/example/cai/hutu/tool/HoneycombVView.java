@@ -128,7 +128,7 @@ public class HoneycombVView extends View {
         tittles = new String[]{getResources().getString(R.string.help_plot), getResources().getString(R.string.help_cream), getResources().getString(R.string.help_language), getResources().getString(R.string.help_untapped), getResources().getString(R.string.help_untapped), getResources().getString(R.string.help_untapped), " "};
 
         // TODO: 2016/8/23 把 mBitmaps 的图片bitmap换成你项目里面的就可以了
-        Bitmap mBitmap = ((BitmapDrawable) mResources.getDrawable(R.mipmap.newlogo2)).getBitmap();
+        Bitmap mBitmap = ((BitmapDrawable) mResources.getDrawable(R.mipmap.newlogo5)).getBitmap();
         mBitmaps = new Bitmap[]{mBitmap, mBitmap, mBitmap, mBitmap, mBitmap, mBitmap, mBitmap};
     }
 

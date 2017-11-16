@@ -15,7 +15,7 @@
         android:allowBackup="true"
 
 
-        android:icon="@mipmap/newlogo2"
+        android:icon="@mipmap/newlogo5"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
