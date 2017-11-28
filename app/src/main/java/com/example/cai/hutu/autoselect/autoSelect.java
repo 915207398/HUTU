@@ -694,11 +694,11 @@ int k=5;
                 1, //累加器图像的分辨率,增大则分辨率变小
                 250, //很重要的一个参数，告诉两个圆之间的距离的最小距离，如果已知一副图像，可以先行计
 //算出符合自己需要的两个圆之间的最小距离。
-                100, //canny算法的阈值上限，下限为一半（即100以上为边缘点，50以下抛弃，中间视是否相连而
+                250, //canny算法的阈值上限，下限为一半（即100以上为边缘点，50以下抛弃，中间视是否相连而
 //定）
-                10, //决定成圆的多寡 ，一个圆上的像素超过这个阈值，则成圆，否则丢弃
-                4,//最小圆半径，这个可以通过图片确定你需要的圆的区间范围
-                10 //最大圆半径
+                15, //决定成圆的多寡 ，一个圆上的像素超过这个阈值，则成圆，否则丢弃
+                15,//最小圆半径，这个可以通过图片确定你需要的圆的区间范围
+                40 //最大圆半径
         );
 
         img2 = cvCreateImage (cvGetSize(img), IPL_DEPTH_8U, 3); //用一个三通道的图片来显示红色的
@@ -738,7 +738,7 @@ public opencv_core.IplImage DefaultFP(opencv_core.IplImage img){
     //复制一张图片出来。
     opencv_core.IplImage showImage_RGB = img.clone();
    for(int i=0;i<4;i++){
-    cvCircle(showImage_RGB,CorrectionFour[i],10,ColorFour[i],-1,CV_FILLED,0);
+    cvCircle(showImage_RGB,CorrectionFour[i],30,ColorFour[i],-1,CV_FILLED,0);
    }
 //    cvCircle(showImage_RGB,CorrectionFour[0],10,CV_RGB( 255,0,0 ),-1,CV_FILLED,0);
 //    cvCircle(showImage_RGB,CorrectionFour[1],10,CV_RGB( 0,255,0 ),-1,CV_FILLED,0);
@@ -847,7 +847,7 @@ return showImage_RGB;
                         //void cvCircle( CvArr* img, CvPoint center, int radius, CvScalar color, int thickness=1, int line_type=8, int shift=0 );
                         //img 图像,center 圆心坐标,radius 圆形的半径,color 线条的颜色,thickness 如果是正数，表示组成圆的线条的粗细程度。否则，表示圆是否被填充
                         //line_type 线条的类型。见 cvLine 的描述,shift 圆心坐标点和半径值的小数点位数
-                        cvCircle(showImage,point,25,CV_RGB(255, 255, 255),3,CV_FILLED,0);
+                        cvCircle(showImage,point,35,CV_RGB(255, 255, 255),3,CV_FILLED,0);
                     /*创建一个100*100的矩阵头*/
                     opencv_core.CvMat myMat = cvCreateMatHeader(50,50,CV_8UC1);
                     /*以原点中心向左上平移后画一个正方形*/
@@ -910,7 +910,7 @@ return showImage_RGB;
                     for(int i = 0;i < contour.total();i++){
                         //功能上理解，得到截取的原的对象，从而得到圆心和半径。
                         opencv_core.CvPoint3D32f curCircle = new opencv_core.CvPoint3D32f(cvGetSeqElem(contour,i));
-                        curRadius = Math.round(curCircle.z());
+                        curRadius = Math.round(curCircle.z())+3;
                         curCenter = new opencv_core.CvPoint(Math.round(curCircle.x()),Math.round(curCircle.y()));
                         //cvCircle(subImage,curCenter,curRadius,CV_RGB(255, 255, 255),3,CV_FILLED,0);
                        // cvCircle(showImage_RGB,new opencv_core.CvPoint(a-25+curCenter.x(),b-25+curCenter.y()),2*curRadius,CV_RGB(255, 0, 0),-1,CV_FILLED,0);

@@ -240,7 +240,7 @@ public class handle extends Activity{
                       7.累加器的阀值。
                       8.最小圆半径。9.最大圆半径。
                     */
-                    contour = cvHoughCircles(BinaryImage, storage, CV_HOUGH_GRADIENT,2,ItemPO.grayImage.width()/2,500,8,3,15);
+                    contour = cvHoughCircles(BinaryImage, storage, CV_HOUGH_GRADIENT,2,ItemPO.grayImage.width()/2,500,8,15,35);
 
                     //subImage  showImage convert to RGB把图片恢复为彩色
                     opencv_core.IplImage showImage_RGB = ItemPO.srcImage.clone();
