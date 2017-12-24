@@ -50,7 +50,7 @@ public class PlotActivity extends AppCompatActivity {
         drawChart();
 
     }
-//没啥事测试用，的注释。
+
     /**
      * 初始化数据
      */
@@ -58,7 +58,6 @@ public class PlotActivity extends AppCompatActivity {
         values = new ArrayList<double[]>();
         colors = new ArrayList<int[]>();
         explains = new ArrayList<String[]>();
-
 
 
         values.add(new double[]{500, 450, 700, 710, 420, 430, 400, 390, 290,
